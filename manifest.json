@@ -1,0 +1,16 @@
+{
+  "name": "Atomic Search",
+  "description": "Build an Extension!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "omnibox": { "keyword" : "tik"},
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "activeTab", "scripting","bookmarks"],
+  "incognito": "split",
+  "action": {
+    "default_title": "Atomic Search Bookmarks",
+    "default_icon": "/images/get_started48.png"
+  }
+}
